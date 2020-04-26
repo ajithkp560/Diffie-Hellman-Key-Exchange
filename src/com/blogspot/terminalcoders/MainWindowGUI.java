@@ -48,7 +48,7 @@ public class MainWindowGUI extends JFrame {
         this.bobMsgTxt.setEditable(false);
 
         this.aliceKeyLbl = new JLabel("Key Calculated by Alice: ", SwingConstants.RIGHT);
-        this.bobKeyLbl = new JLabel("Key Calculated by Bob", SwingConstants.RIGHT);
+        this.bobKeyLbl = new JLabel("Key Calculated by Bob: ", SwingConstants.RIGHT);
         this.aliceKeyTxt = new JTextField();
         this.bobKeyTxt = new JTextField();
         this.aliceKeyTxt.setEditable(false);
