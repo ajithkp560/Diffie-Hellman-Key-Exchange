@@ -10,6 +10,7 @@ public class PrimeNumberGen {
     public long getPrimeNumber(){
         this.n = (int)(new Random().nextDouble()*100)+250;
         long l = 0;
+        // Refer paper :  https://www.emis.de/journals/JIS/VOL22/Axler/axler17.pdf
         l = (long) ((this.n)*(Math.log(this.n) + (Math.log(Math.log(this.n)) -1) + ((Math.log(Math.log(this.n))-2)/(Math.log(this.n))) - ((Math.log(Math.log(this.n)) -21.0/10.0)/Math.log(this.n)) ));
         for(long i=l;;i++){
             if(isPrime(i)){
